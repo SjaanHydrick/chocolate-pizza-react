@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+.logo {
+  position: absolute;
+  left: 15%;
+  right: 20px;
+  top: 30px;
+}
+  
+
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 40pt;
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-bottom: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tiny-buttons {
+  margin-right: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-list {
+  position: absolute;
+  margin: 5px;
+  right: 10%;
+  top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.subheader {
+  font-family: Arial Narrow, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 10pt;
+  margin-left: 110px;
+  margin-top: 0px;
+}
+
+.border::after {
+  content: "";
+  display: block;
+  height: 10px;
+  background-repeat: repeat;
+  background-position: center bottom;
+  background-image: url(./assets/hr-img.png);
+}
+
+body {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+h3 {
+  font-size: 30pt;
+  font-family: Impact, fantasy;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-family: Arial Narrow, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 10pt;
+  margin-top: 0;
+  color: gray;
+}
+
+.print {
+  float: right;
+  font-family: Arial Narrow, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 10pt;
+  color: gray;
+  margin-top: -50px;
+}
+
+.body-p {
+  font-size: 14pt;
+  text-indent: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+.choco-pizza {
+  position: relative;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.ingredients {
+  height: 270px;
+  padding: 17px;
+  background-image: url(./assets/list-bg.png);
+  background-repeat: no-repeat;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+input {
+  margin-right: 10px;
+}
+
+li {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  line-height: 1.55em;
+  font-size: 15pt;
+  color: #505050;
+}
+
+.strikethru {
+  text-decoration: line-through;
+}
+
+.footer {
+  margin-top: 30px;
+
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-repeat: repeat;
+  background-position: center bottom;
+  margin-bottom: 10px;
+  background-image: url(./assets/hr-img.png);
+}
+
+.van {
+  position: absolute;
+  left: 150px;
+}
+
+h4 {
+  margin-left: 15%;
+  margin-bottom: 0;
+  font-size: 16pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+    
+}
+
+.footer-text {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin-left: 15%;
+  margin-top: 5px;
+}
+
+button {
+  width: 170px;
+  height: 60px;
+  background-color: indianred;
   color: white;
+  font-family: Arial Narrow, sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 16pt;
+  margin-top: -25px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.foot-logo {
+  position: absolute;
+  margin-left: 37.5%;
+  border: solid 20px white;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gray { 
+  border-top: solid 1px #707070;
+  padding: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: gray;
+}
+
+.gray > p {
+  line-height: 13pt;
+  margin: 2px;
 }
