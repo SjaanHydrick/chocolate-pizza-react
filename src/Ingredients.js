@@ -5,7 +5,7 @@ import IngredientList from './IngredientList.js'
 export default class Ingredients extends Component {
     render() {
         return (
-            <div className="ingredients" style={{ backgroundImage: this.props.background }} >
+            <div className="ingredients">
                 <IngredientList />
             </div>
         )

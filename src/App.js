@@ -7,11 +7,10 @@ import Footer from './Footer.js'
 function App() {
     return (
         <div>
-            <Header
-                background="../assets/hr-img.png" />
+            <Header />
             <Body />
-            <Ingredients background="../assets/list-bg.png" />
-            <Footer background="../assets/hr-img.png" />
+            <Ingredients />
+            <Footer />
         </div>
     );
 }
