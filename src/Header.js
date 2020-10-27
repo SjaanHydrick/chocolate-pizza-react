@@ -11,7 +11,7 @@ export default class Header extends Component {
                 <h1>Delicious</h1>
                 <p className="subheader">The Best Food Blog On The Web.</p>
                 <ButtonList />
-                <div className="border" style={{ backgroundImage: this.props.background }} ></div>
+                <div className="border"></div>
             </div>
         )
     }

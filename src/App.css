@@ -40,6 +40,7 @@ h1 {
   height: 10px;
   background-repeat: repeat;
   background-position: center bottom;
+  background-image: url("./backgroundImages/hr-img.png");
 
 }
 
@@ -89,6 +90,7 @@ h6 {
   height: 270px;
   padding: 17px;
   background-repeat: no-repeat;
+  background-image: url("./backgroundImages/list-bg.png");
 }
 
 ul {
@@ -122,6 +124,7 @@ li {
   content: "";
   display: block;
   height: 10px;
+  background-image: url("./backgroundImages/hr-img.png");
   background-repeat: repeat;
   background-position: center bottom;
   margin-bottom: 10px;

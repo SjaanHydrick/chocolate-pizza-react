@@ -5,7 +5,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div>
-                <div className="footer" style={{ backgroundImage: this.props.background }} ></div>
+                <div className="footer"></div>
                 <img className="van" src="../assets/van-pic.png" alt="van" />
                 <h4>Vanessa Stevenson</h4>
                 <p className="footer-text">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.<button>Share Recipe</button></p>
