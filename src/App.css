@@ -40,7 +40,7 @@ h1 {
   height: 10px;
   background-repeat: repeat;
   background-position: center bottom;
-  background-image: url(./assets/hr-img.png);
+
 }
 
 body {
@@ -88,7 +88,6 @@ h6 {
 .ingredients {
   height: 270px;
   padding: 17px;
-  background-image: url(./assets/list-bg.png);
   background-repeat: no-repeat;
 }
 
@@ -126,7 +125,6 @@ li {
   background-repeat: repeat;
   background-position: center bottom;
   margin-bottom: 10px;
-  background-image: url(./assets/hr-img.png);
 }
 
 .van {
