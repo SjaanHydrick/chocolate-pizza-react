@@ -7,8 +7,8 @@ import border from './assets/hr-img.png';
 function App() {
     return (
         <div>
-            <Header 
-            background={border}/>
+            <Header
+                background={border} />
             <Body />
             <Ingredients />
             <Footer />

@@ -5,9 +5,9 @@ export default class IngredientItem extends Component {
         return (
             <div>
                 <li>
-                    <input className="checkbox" type="checkbox">
-                        {this.props.amount}{this.props.name}
-                    </input>
+                    <input className="checkbox" type="checkbox" />
+                    {this.props.amount} {this.props.name}
+
                 </li>
 
 
