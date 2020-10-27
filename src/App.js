@@ -2,16 +2,16 @@ import Header from './Header.js'
 import Body from './Body.js'
 import Ingredients from './Ingredients.js'
 import Footer from './Footer.js'
-import border from './assets/hr-img.png';
+
 
 function App() {
     return (
         <div>
             <Header
-                background={border} />
+                background="../public/assets/hr-img.png" />
             <Body />
-            <Ingredients />
-            <Footer />
+            <Ingredients background="../public/assets/list-bg.png" />
+            <Footer background="../public/assets/hr-img.png" />
         </div>
     );
 }
