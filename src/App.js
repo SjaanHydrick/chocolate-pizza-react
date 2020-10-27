@@ -8,10 +8,10 @@ function App() {
     return (
         <div>
             <Header
-                background="../public/assets/hr-img.png" />
+                background="../assets/hr-img.png" />
             <Body />
-            <Ingredients background="../public/assets/list-bg.png" />
-            <Footer background="../public/assets/hr-img.png" />
+            <Ingredients background="../assets/list-bg.png" />
+            <Footer background="../assets/hr-img.png" />
         </div>
     );
 }
